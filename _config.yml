@@ -30,7 +30,7 @@ twitter_username: Vaishna02284031
 github_username:  vaishnavipatil4848
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
