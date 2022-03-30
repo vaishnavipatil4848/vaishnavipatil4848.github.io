@@ -36,6 +36,56 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+#include
+include:
+  - _pages
+
+
+author:
+  name      : "Vaishnavi Patil"
+  bio       : "Kaggle Expert & ML Enthusiast"
+  avatar    : "assets/images/all_go_pic.jpg"
+  location  : "Pune Maharashtra, India."
+  gmail     :  vaishnavi.patil4848@gmail.com
+  github    : "vaishnavipatil4848"
+  linkedin  : "vaishnavi-patil-8522731a7"
+  medium    : "vaishnavi.patil4848"
+  twitter   : "Vaishna02284031"
+
+
+footer:
+   links:
+     - label: "Twitter"
+       icon: " fab fa-fw fa-twitter"
+       url: "https://twitter.com/Vaishna02284031"
+     - label: "Linkedin"
+       icon: " fab fa-fw fa-linkedin"
+       url: "https://linkedin.com/in/vaishnavi-patil-8522731a7"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: https://github.com/vaishnavipatil4848
+
+
+
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      footer: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      footer: true
+
+
+
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -55,3 +105,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+
